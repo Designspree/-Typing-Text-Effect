@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #25c2f1;
+    overflow: hidden; 
+    display: flex;
+}
+#type h1 {
+    color: #ffffff;
+    position: relative;
+    top: 250px;
+    right: -240px;
+    font-size: 50px;
+    overflow: hidden;
+    border-right: .15em solid #fff;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation-name: typing;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-out;
+} 
+
+/* The typing effect */
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+@keyframes blink-caret {
+    from,to {border-color: transparent;}
+    50% {border-color: #fff;}
+}
+
+
+
